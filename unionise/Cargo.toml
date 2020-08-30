@@ -1,0 +1,8 @@
+[package]
+name = "unionise"
+version = "0.1.0"
+authors = ["Sam L. Thomas <st@simulacra.to>"]
+edition = "2018"
+
+[dependencies]
+unionise-codegen = { path = "../unionise-codegen" }

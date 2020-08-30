@@ -1,0 +1,13 @@
+[package]
+name = "unionise-codegen"
+version = "0.1.0"
+authors = ["Sam L. Thomas <st@simulacra.to>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1"
+quote = "1"
+syn = { version = "1", features = ["full", "parsing"] }
